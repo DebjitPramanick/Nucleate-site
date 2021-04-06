@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0ZB0PE0Z26"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-0ZB0PE0Z26');
+    </script>
+
+    <title>Eduweave</title>
+    <link rel="stylesheet" href="Style.css" />
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar navbar-style">
+            <div class="container">
+                <div class="navbar-header">
+
+                    <a href=""><img class="logo" src="Assets/Landing Page assets/samplelogo.png"></a>
+                    <h1 class="title">Eduweave</h1>
+
+                    <div class="toogle-container">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse" id="micon">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="https://portal.eduweave.com/">Teachers</a></li>
+                        <li><a href="https://portal.eduweave.com/">Login</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+
+        <div class="container banner-contents">
+            <div class="row">
+                <div class="col-sm-6 banner-text">
+                    <h1 class="big-text">Run online lessons with ease</h1>
+                    <p class="small-text">Eduweave allows educators to setup, manage and run online classes in minutes
+                    </p>
+                    <button type="button" class="btn btn-light home-btn" id="signup">Sign up for free</button>
+                </div>
+
+                <div class="col-sm-9 banner-img">
+                    <img src="Assets/Landing Page assets/Webclass.png" class="img-responsive" />
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <div class="section">
+        <div class="instructions-container">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-sm-6 ins-img">
+                        <img src="Assets/Landing Page assets/Webclass.png" class="img-responsive" />
+                    </div>
+
+                    <div class="col-sm-6 ins-text">
+                        <h1 class="ins-title">All in one lesson hosting.</h1>
+                        <p class="little-text">Go live with all your students with a click of a button. Schedule
+                            lessons to hold personalized and engaging discussions with your students. We'll
+                            manage the class settings for you.</p>
+                        <button type="button" class="btn btn-primary" id="hostbtn">Host Classroom</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="instructions-container">
+            <div class="container">
+                <div class="row  reverse">
+                    <div class="col-sm-6 ins-text">
+                        <h1 class="ins-title">Manage and share content easily.</h1>
+                        <p class="little-text">Share and manage all your resources with students securely in one single
+                            place. You no longer have to worry about files on multiple chats, emails or 3rd party file
+                            hosting platforms.
+                        </p>
+                        <button type="button" class="btn btn-primary" id="managebtn">Manage Class</button>
+                    </div>
+
+                    <div class="col-sm-3 ins-img">
+                        <img src="Assets/Landing Page assets/Managecontent2.JPG" class="img-responsive" />
+                    </div>
+                    <div class="col-sm-3 ins-img">
+                        <img src="Assets/Landing Page assets/mobileteaching.png" class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="instructions-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 ins-img">
+                        <img src="Assets/Landing Page assets/Webclass.png" class="img-responsive" />
+                    </div>
+
+                    <div class="col-sm-6 ins-text">
+                        <h1 class="ins-title">Understand and build your audience.</h1>
+                        <ul class="ins-list">
+                            <li class="list-item">
+                                <p>Track student analytics</p>
+                            </li>
+                            <li class="list-item">
+                                <p>
+                                    Facilitate conversations
+                                </p>
+                            </li>
+                            <li class="list-item">
+                                <p>
+                                    Directly reach out to more students
+                                </p>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-primary" id="startbtn">Start Using</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="get-in-touch">
+            <div class="container">
+                <h1>Get in touch</h1>
+                <p>Eduweave empowers every educator to focus on their craft and build the future education. Get in
+                    touch with us <span><a href="mailto: info@eduweave.com">info@eduweave.com</a>
+                    </span>
+                </p>
+                <form class="contact-form row" method="POST">
+                    <div class="form-field col-lg-6">
+                        <input id="name" onclick="removeMessageSent()" class="input-text" type="text" name="" placeholder="Name">
+                        <label for="name" class="label">Name</label>
+                    </div>
+                    <div class="form-field col-lg-6">
+                        <input id="email"  onclick="removeMessageSent()" class="input-text" type="text" name="" placeholder="Email">
+                        <label for="email" class="label">Email</label>
+                    </div>
+                    <div class="form-field col-lg-6">
+                        <input id="phone" onclick="removeMessageSent()" class="input-text" type="number" name="" placeholder="Phone">
+                        <label for="phone" class="label">Phone No.</label>
+                    </div>
+                    <div class="form-field col-lg-6">
+                        <input id="country" onclick="removeMessageSent()" class="input-text" type="text" name="" placeholder="Country">
+                        <label for="country" class="label">Country</label>
+                    </div>
+                    <div class="form-field col-lg-12">
+                        <input id="message" onclick="removeMessageSent()" class="input-text" type="text" name="" placeholder="Message">
+                        <label for="message" class="label">Message</label>
+                    </div>
+                </form>
+
+                <button type="button" class="btn btn-primary submit-btn"
+                onclick="sendEmail()">Submit</button>
+                <div id="messageSent" style="margin-top: 10px;color:green;font-size: medium;font-weight: bold;"></div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Integration of Email JS -->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_PfS6Adv75Vm04ZDevvCtZ");
+        })();
+    </script>
+
+    <!-- Integration of Email JS -->
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
